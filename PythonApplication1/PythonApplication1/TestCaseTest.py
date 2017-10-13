@@ -1,4 +1,5 @@
 from WasRun import WasRun
+from TestCase import TestCase
 class TestCaseTest(TestCase):
     def testRunning(self):
         test= WasRun("testMethod")
